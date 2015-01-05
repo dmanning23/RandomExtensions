@@ -3,8 +3,6 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProductVersion>10.0.0</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{F0BBA30F-66E1-4E2F-BDF6-E17FF317C34E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>RandomExtensions.Windows</RootNamespace>
