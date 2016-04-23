@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata>
-		<id>RandomExtensions.dmanning23.Android</id>
+		<id>RandomExtensions.dmanning23.WindowsUniversal</id>
 		<version>1.0.3</version>
-		<title>RandomExtensions.dmanning23.Android</title>
+		<title>RandomExtensions.dmanning23.WindowsUniversal</title>
 		<authors>dmanning23</authors>
 		<owners>dmanning23</owners>
 		<projectUrl>https://github.com/dmanning23/RandomExtensions</projectUrl>
@@ -12,12 +12,13 @@
 		<description>Several useful extension methods for the .Net Random class</description>
 		<releaseNotes />
 		<copyright>Copyright 2016</copyright>
-		<tags></tags>
+		<tags>WindowsUniversal</tags>
 		<dependencies>
+			<dependency id="Microsoft.NETCore.UniversalWindowsPlatform" version="5.1"/>
 		</dependencies>
 	</metadata>
 	<files>
-		<file src="bin\Release\RandomExtensions.Android.pdb" target="lib\RandomExtensions.Android.pdb" />
-		<file src="bin\Release\RandomExtensions.Android.dll" target="lib\RandomExtensions.Android.dll" />
+		<file src="bin\Release\RandomExtensions.WindowsUniversal.pdb" target="lib\RandomExtensions.WindowsUniversal.pdb" />
+		<file src="bin\Release\RandomExtensions.WindowsUniversal.dll" target="lib\RandomExtensions.WindowsUniversal.dll" />
 	</files>
 </package>
