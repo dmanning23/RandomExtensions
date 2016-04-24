@@ -50,7 +50,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="RandomExtensions.Android.nuspec" />
     <None Include="Resources\AboutResources.txt" />
   </ItemGroup>
   <ItemGroup>
