@@ -1,2 +1,2 @@
-nuget pack .\RandomExtensions.nuspec -IncludeReferencedProjects -Prop Configuration=Release
+nuget pack .\RandomExtensionsnuspec -IncludeReferencedProjects -Prop Configuration=Release
 nuget push *.nupkg
