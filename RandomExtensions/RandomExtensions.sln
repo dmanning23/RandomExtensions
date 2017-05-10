@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomExtensions.Android", "RandomExtensions.Android\RandomExtensions.Android.csproj", "{D9917BA7-C9F9-47B1-8115-16873C74D495}"
 EndProject
@@ -17,7 +17,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		RandomExtensions.nuspec = RandomExtensions.nuspec
 	EndProjectSection
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "RandomExtensions.SharedProject", "RandomExtensions.SharedProject\RandomExtensions.SharedProject.shproj", "{9659ED8C-3498-4DCE-9AF2-C6A39E88106B}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		RandomExtensions.SharedProject\RandomExtensions.SharedProject.projitems*{11c12670-87f1-4dc4-81dd-a268cdb2e301}*SharedItemsImports = 4
+		RandomExtensions.SharedProject\RandomExtensions.SharedProject.projitems*{9659ed8c-3498-4dce-9af2-c6a39e88106b}*SharedItemsImports = 13
+		RandomExtensions.SharedProject\RandomExtensions.SharedProject.projitems*{b040a0b4-672c-464f-b8c5-7d46c375acc0}*SharedItemsImports = 4
+		RandomExtensions.SharedProject\RandomExtensions.SharedProject.projitems*{d9917ba7-c9f9-47b1-8115-16873c74d495}*SharedItemsImports = 4
+		RandomExtensions.SharedProject\RandomExtensions.SharedProject.projitems*{fc9ef035-b638-4f99-b4e2-8f0931d9f26b}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		AppStore|Any CPU = AppStore|Any CPU
 		AppStore|ARM = AppStore|ARM
@@ -57,14 +66,14 @@ Global
 		{D9917BA7-C9F9-47B1-8115-16873C74D495}.Release|x64.Build.0 = Release|Any CPU
 		{D9917BA7-C9F9-47B1-8115-16873C74D495}.Release|x86.ActiveCfg = Release|Any CPU
 		{D9917BA7-C9F9-47B1-8115-16873C74D495}.Release|x86.Build.0 = Release|Any CPU
-		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.AppStore|Any CPU.ActiveCfg = AppStore|Any CPU
-		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.AppStore|Any CPU.Build.0 = AppStore|Any CPU
-		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.AppStore|ARM.ActiveCfg = AppStore|Any CPU
-		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.AppStore|ARM.Build.0 = AppStore|Any CPU
-		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.AppStore|x64.ActiveCfg = AppStore|Any CPU
-		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.AppStore|x64.Build.0 = AppStore|Any CPU
-		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.AppStore|x86.ActiveCfg = AppStore|Any CPU
-		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.AppStore|x86.Build.0 = AppStore|Any CPU
+		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.AppStore|ARM.ActiveCfg = Release|Any CPU
+		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.AppStore|ARM.Build.0 = Release|Any CPU
+		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.AppStore|x64.ActiveCfg = Release|Any CPU
+		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.AppStore|x64.Build.0 = Release|Any CPU
+		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.AppStore|x86.ActiveCfg = Release|Any CPU
+		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.AppStore|x86.Build.0 = Release|Any CPU
 		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.Debug|ARM.ActiveCfg = Debug|Any CPU

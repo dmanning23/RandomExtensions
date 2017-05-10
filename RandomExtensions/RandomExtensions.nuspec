@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata>
 		<id>RandomExtensions.dmanning23</id>
-		<version>1.0.2</version>
+		<version>1.0.3</version>
 		<title>RandomExtensions.dmanning23</title>
 		<authors>dmanning23</authors>
 		<owners>dmanning23</owners>
@@ -31,7 +31,7 @@
 		<!--Xamarin.iOS Unified-->
 		<file src="RandomExtensions.iOS\bin\Release\RandomExtensions.iOS.pdb" target="lib\Xamarin.iOS10\RandomExtensions.iOS.pdb" />
 		<file src="RandomExtensions.iOS\bin\Release\RandomExtensions.iOS.dll" target="lib\Xamarin.iOS10\RandomExtensions.iOS.dll" />
-		
+
 		<!--Windows Universal-->
 		<file src="RandomExtensions.WindowsUniversal\bin\Release\RandomExtensions.WindowsUniversal.pdb" target="lib\uap10.0\RandomExtensions.WindowsUniversal.pdb" />
 		<file src="RandomExtensions.WindowsUniversal\bin\Release\RandomExtensions.WindowsUniversal.dll" target="lib\uap10.0\RandomExtensions.WindowsUniversal.dll" />
