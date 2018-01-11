@@ -9,10 +9,20 @@ namespace RandomExtensions
 	public static class RandomExtensions
 	{
 		/// <summary>
+		/// Get a random double between 0 - max value.  The default version only returns between 0.0-1.0
+		/// </summary>
+		/// <param name="rand">teh rand object we are extending</param>
+		/// <param name="max">maximum number, inclusive</param>
+		/// <returns>double: a random double between 0 and max</returns>
+		public static double NextDouble(this Random rand, double max)
+		{
+			return rand.NextDouble() * max;
+		}
+
+		/// <summary>
 		/// Get a random double within a specified range.  The default version only returns between 0.0-1.0
 		/// </summary>
 		/// <param name="rand">teh rand object we are extending</param>
-		/// <param name="min">minimum number, inclusive</param>
 		/// <param name="max">maximum number, inclusive</param>
 		/// <returns>double: a random double between the min and max</returns>
 		public static double NextDouble(this Random rand, double min, double max)
@@ -32,6 +42,17 @@ namespace RandomExtensions
 		public static float NextFloat(this Random rand)
 		{
 			return (float)rand.NextDouble();
+		}
+
+		/// <summary>
+		/// Get a random float between 0 and a max value.  The default version only returns between 0.0-1.0
+		/// </summary>
+		/// <param name="rand">teh rand object we are extending</param>
+		/// <param name="max">maximum number, inclusive</param>
+		/// <returns>double: a random float between the 0 and max</returns>
+		public static float NextFloat(this Random rand, float max)
+		{
+			return rand.NextFloat() * max;
 		}
 
 		/// <summary>
