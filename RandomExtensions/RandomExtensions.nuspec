@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata>
 		<id>RandomExtensions.dmanning23</id>
-		<version>1.0.4</version>
+		<version>1.0.5</version>
 		<title>RandomExtensions.dmanning23</title>
 		<authors>dmanning23</authors>
 		<owners>dmanning23</owners>
@@ -36,9 +36,9 @@
 		<file src="RandomExtensions.WindowsUniversal\bin\Release\RandomExtensions.WindowsUniversal.pdb" target="lib\uap10.0\RandomExtensions.WindowsUniversal.pdb" />
 		<file src="RandomExtensions.WindowsUniversal\bin\Release\RandomExtensions.WindowsUniversal.dll" target="lib\uap10.0\RandomExtensions.WindowsUniversal.dll" />
 
-		<!--DesktopGL-->
-		<file src="RandomExtensions.DesktopGL\bin\Release\RandomExtensions.DesktopGL.pdb" target="lib\net452\RandomExtensions.DesktopGL.pdb" />
-		<file src="RandomExtensions.DesktopGL\bin\Release\RandomExtensions.DesktopGL.dll" target="lib\net452\RandomExtensions.DesktopGL.dll" />
+		<!--WindowsDX-->
+		<file src="RandomExtensions.WindowsDX\bin\Release\RandomExtensions.WindowsDX.pdb" target="lib\net452\RandomExtensions.WindowsDX.pdb" />
+		<file src="RandomExtensions.WindowsDX\bin\Release\RandomExtensions.WindowsDX.dll" target="lib\net452\RandomExtensions.WindowsDX.dll" />
 
 	</files>
 </package>
