@@ -152,5 +152,10 @@ namespace RandomExtensions
 		{
 			return rand.NextWord(4, 4);
 		}
+
+		public static bool NextBool(this Random rand)
+		{
+			return rand.Next() % 2 == 0;
+		}
 	}
 }
