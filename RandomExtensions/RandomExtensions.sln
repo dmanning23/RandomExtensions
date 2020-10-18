@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomExtensions.Android", "RandomExtensions.Android\RandomExtensions.Android.csproj", "{D9917BA7-C9F9-47B1-8115-16873C74D495}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomExtensions.iOS", "RandomExtensions.iOS\RandomExtensions.iOS.csproj", "{11C12670-87F1-4DC4-81DD-A268CDB2E301}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomExtensions.WindowsUniversal", "RandomExtensions.WindowsUniversal\RandomExtensions.WindowsUniversal.csproj", "{B040A0B4-672C-464F-B8C5-7D46C375ACC0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0B0EC916-41DF-4479-A817-60F0B8C34D6F}"
 	ProjectSection(SolutionItems) = preProject
@@ -23,7 +21,6 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		RandomExtensions.SharedProject\RandomExtensions.SharedProject.projitems*{11c12670-87f1-4dc4-81dd-a268cdb2e301}*SharedItemsImports = 4
 		RandomExtensions.SharedProject\RandomExtensions.SharedProject.projitems*{9659ed8c-3498-4dce-9af2-c6a39e88106b}*SharedItemsImports = 13
-		RandomExtensions.SharedProject\RandomExtensions.SharedProject.projitems*{b040a0b4-672c-464f-b8c5-7d46c375acc0}*SharedItemsImports = 4
 		RandomExtensions.SharedProject\RandomExtensions.SharedProject.projitems*{d9917ba7-c9f9-47b1-8115-16873c74d495}*SharedItemsImports = 4
 		RandomExtensions.SharedProject\RandomExtensions.SharedProject.projitems*{fc9ef035-b638-4f99-b4e2-8f0931d9f26b}*SharedItemsImports = 4
 	EndGlobalSection
@@ -90,29 +87,6 @@ Global
 		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.Release|x64.Build.0 = Release|Any CPU
 		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.Release|x86.ActiveCfg = Release|Any CPU
 		{11C12670-87F1-4DC4-81DD-A268CDB2E301}.Release|x86.Build.0 = Release|Any CPU
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.AppStore|Any CPU.ActiveCfg = Debug|x86
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.AppStore|Any CPU.Build.0 = Debug|x86
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.AppStore|ARM.ActiveCfg = Release|ARM
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.AppStore|ARM.Build.0 = Release|ARM
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.AppStore|x64.ActiveCfg = Release|x64
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.AppStore|x64.Build.0 = Release|x64
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.AppStore|x86.ActiveCfg = Release|x86
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.AppStore|x86.Build.0 = Release|x86
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.Debug|ARM.ActiveCfg = Debug|ARM
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.Debug|ARM.Build.0 = Debug|ARM
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.Debug|x64.ActiveCfg = Debug|x64
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.Debug|x64.Build.0 = Debug|x64
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.Debug|x86.ActiveCfg = Debug|x86
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.Debug|x86.Build.0 = Debug|x86
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.Release|ARM.ActiveCfg = Release|ARM
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.Release|ARM.Build.0 = Release|ARM
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.Release|x64.ActiveCfg = Release|x64
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.Release|x64.Build.0 = Release|x64
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.Release|x86.ActiveCfg = Release|x86
-		{B040A0B4-672C-464F-B8C5-7D46C375ACC0}.Release|x86.Build.0 = Release|x86
 		{FC9EF035-B638-4F99-B4E2-8F0931D9F26B}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
 		{FC9EF035-B638-4F99-B4E2-8F0931D9F26B}.AppStore|Any CPU.Build.0 = Release|Any CPU
 		{FC9EF035-B638-4F99-B4E2-8F0931D9F26B}.AppStore|ARM.ActiveCfg = Release|Any CPU
