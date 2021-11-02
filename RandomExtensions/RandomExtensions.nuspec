@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata>
 		<id>RandomExtensions.dmanning23</id>
-		<version>2.0.1</version>
+		<version>2.0.2</version>
 		<title>RandomExtensions.dmanning23</title>
 		<authors>dmanning23</authors>
 		<owners>dmanning23</owners>
@@ -15,11 +15,6 @@
 		<tags>android, ios, windows universal, monogame, xamarin</tags>
 		<dependencies>
 			
-			<!--Windows Universal-->
-			<group targetFramework="uap10.0">
-				<dependency id="Microsoft.NETCore.UniversalWindowsPlatform" version="6.1"/>
-			</group>
-
 		</dependencies>
 	</metadata>
 	<files>
