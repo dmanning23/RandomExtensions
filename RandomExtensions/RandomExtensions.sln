@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30517.126
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomExtensions.Android", "RandomExtensions.Android\RandomExtensions.Android.csproj", "{D9917BA7-C9F9-47B1-8115-16873C74D495}"
 EndProject
@@ -10,7 +10,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0B0EC916-41DF-4479-A817-60F0B8C34D6F}"
 	ProjectSection(SolutionItems) = preProject
 		buildNugetPackages.ps1 = buildNugetPackages.ps1
-		RandomExtensions.Bridge.nuspec = RandomExtensions.Bridge.nuspec
 		RandomExtensions.nuspec = RandomExtensions.nuspec
 	EndProjectSection
 EndProject
@@ -18,16 +17,7 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "RandomExtensions.SharedProj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomExtensions.WindowsDX", "RandomExtensions.WindowsDX\RandomExtensions.WindowsDX.csproj", "{FC9EF035-B638-4F99-B4E2-8F0931D9F26B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomExtensions.Bridge", "RandomExtensions.Bridge\RandomExtensions.Bridge.csproj", "{31C5978D-83D4-4D41-962F-2544EBB3DB35}"
-EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		RandomExtensions.SharedProject\RandomExtensions.SharedProject.projitems*{11c12670-87f1-4dc4-81dd-a268cdb2e301}*SharedItemsImports = 4
-		RandomExtensions.SharedProject\RandomExtensions.SharedProject.projitems*{31c5978d-83d4-4d41-962f-2544ebb3db35}*SharedItemsImports = 4
-		RandomExtensions.SharedProject\RandomExtensions.SharedProject.projitems*{9659ed8c-3498-4dce-9af2-c6a39e88106b}*SharedItemsImports = 13
-		RandomExtensions.SharedProject\RandomExtensions.SharedProject.projitems*{d9917ba7-c9f9-47b1-8115-16873c74d495}*SharedItemsImports = 4
-		RandomExtensions.SharedProject\RandomExtensions.SharedProject.projitems*{fc9ef035-b638-4f99-b4e2-8f0931d9f26b}*SharedItemsImports = 4
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		AppStore|Any CPU = AppStore|Any CPU
 		AppStore|ARM = AppStore|ARM
@@ -115,35 +105,17 @@ Global
 		{FC9EF035-B638-4F99-B4E2-8F0931D9F26B}.Release|x64.Build.0 = Release|Any CPU
 		{FC9EF035-B638-4F99-B4E2-8F0931D9F26B}.Release|x86.ActiveCfg = Release|Any CPU
 		{FC9EF035-B638-4F99-B4E2-8F0931D9F26B}.Release|x86.Build.0 = Release|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.AppStore|Any CPU.Build.0 = Debug|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.AppStore|ARM.ActiveCfg = Debug|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.AppStore|ARM.Build.0 = Debug|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.AppStore|x64.ActiveCfg = Debug|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.AppStore|x64.Build.0 = Debug|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.AppStore|x86.ActiveCfg = Debug|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.AppStore|x86.Build.0 = Debug|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.Debug|ARM.Build.0 = Debug|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.Debug|x64.Build.0 = Debug|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.Debug|x86.Build.0 = Debug|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.Release|Any CPU.Build.0 = Release|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.Release|ARM.ActiveCfg = Release|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.Release|ARM.Build.0 = Release|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.Release|x64.ActiveCfg = Release|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.Release|x64.Build.0 = Release|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.Release|x86.ActiveCfg = Release|Any CPU
-		{31C5978D-83D4-4D41-962F-2544EBB3DB35}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D56E3AF3-11DA-4396-9B60-1D38CD685333}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		RandomExtensions.SharedProject\RandomExtensions.SharedProject.projitems*{11c12670-87f1-4dc4-81dd-a268cdb2e301}*SharedItemsImports = 4
+		RandomExtensions.SharedProject\RandomExtensions.SharedProject.projitems*{9659ed8c-3498-4dce-9af2-c6a39e88106b}*SharedItemsImports = 13
+		RandomExtensions.SharedProject\RandomExtensions.SharedProject.projitems*{d9917ba7-c9f9-47b1-8115-16873c74d495}*SharedItemsImports = 4
+		RandomExtensions.SharedProject\RandomExtensions.SharedProject.projitems*{fc9ef035-b638-4f99-b4e2-8f0931d9f26b}*SharedItemsImports = 4
 	EndGlobalSection
 EndGlobal
